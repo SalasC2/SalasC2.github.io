@@ -10888,6 +10888,20 @@ html {
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
 }
+
+.csumblogo {
+  /* background-color: rgb(188, 188, 189); */
+/*   width: 100%; */
+  /* position: absolute; */
+  /* left: 0; */
+  /* margin: 0 auto; */
+/*   margin-right: 10rem; */
+  /* float: left; */
+  /* text-align: center; */
+  /* display: flex; */
+  /* height: 5rem; */
+  /* padding-right: 1rem; */
+}
 .divider-custom .divider-custom-line:last-child {
   margin-left: 1rem;
 }
@@ -10925,12 +10939,16 @@ html {
 }
 #mainNav .navbar-brand {
   color: #fff;
+  width: 33%;
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
+  width: 33%;
+  align-items: right; 
+  display: block;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #1abc9c;
